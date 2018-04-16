@@ -1,0 +1,27 @@
+{
+  "name": "vagas-scrapper",
+  "version": "1.0.0",
+  "description": "A simple scrapper to search development vagas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaodorea/vagas.git"
+  },
+  "keywords": [
+    "scrapper"
+  ],
+  "author": "Joao Dorea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaodorea/vagas/issues"
+  },
+  "homepage": "https://github.com/joaodorea/vagas#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nightmare": "^3.0.1"
+  }
+}
